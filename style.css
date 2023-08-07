@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background: lightpink;
+  position: sticky;
+  top: 0;
+
+}
+
+.navigation {
+    padding: 16px;
+}
+
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.main-header {
+    color: green;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.article__photo {
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+  
+}
+
+.section__header {
+    color: hotpink;
+}
+
+.article__header {
+    color: red;
+}
+
+.section {
+    background: lightcyan;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.section__article {
+    background: lightgray;
+}
+
+
+
+div {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    background: hotpink;
+    margin: 10px;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 15%;
+}
+
