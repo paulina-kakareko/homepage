@@ -21,6 +21,7 @@ body {
 
 .navigation {
     padding: 16px;
+    text-align: center;
 }
 
 main {
@@ -29,7 +30,6 @@ main {
 }
 
 .main-header {
-    color: green;
     margin: 10px;
     font-weight: 900;
 }
@@ -61,7 +61,7 @@ main {
 
 
 
-div {
+.div {
     overflow: hidden;
     width: 250px;
     height: 250px;
@@ -73,3 +73,23 @@ div {
     border-radius: 15%;
 }
 
+.flex {
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.flex__item {
+    background: violet;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.background {
+    background-image: url('flowers1.jpg');
+    background-position: center center;
+}
