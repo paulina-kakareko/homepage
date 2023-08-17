@@ -167,67 +167,70 @@
         </div>
       </section>
 
-      <section class="background">
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
-
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          <br/>
-          
-          
-          <br/>
-
-        </article>
+      <section class="section">
+        <div class="background">
+          <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+  
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi vel quo ab repellat soluta expedita in sed nobis natus. Consectetur assumenda eum nostrum numquam enim beatae! Quod, ex ullam!
+  
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            <br/>
+            
+            
+            <br/>
+  
+          </article>
+        </div>
+        
       </section>
       <section class="section">
 
           <h3>Formularz</h3>
-          <form>
+          <form action="https://forms.cotenfrontend.pl" method="get">
             <p>
               <label for="name">Imię</label>
-              <input type="text" id="name" placeholder="Imię">
+              <input type="text" id="name" placeholder="Imię" name="name" required>
             </p>
         <p>
           <label for="surname">Nazwisko</label>
-          <input type="text" id="surname" placeholder="Nazwisko">
+          <input type="text" id="surname" placeholder="Nazwisko" name="surname">
         </p>
         <p>
           <label for="age">Wiek</label>
-          <input type="number" id="age" placeholder="Wiek">
+          <input type="number" id="age" placeholder="Wiek" name="age">
         </p>
           <fieldset>
             <legend>
@@ -236,19 +239,23 @@
             
               <p>
                 <label for="street">Ulica</label>
-                <input type="text" id="street" placeholder="Ulica">
+                <input type="text" id="street" placeholder="Ulica" name="street">
               </p>
               <p>
                 <label for="city">Miejscowość</label>
-                <input type="text" id="city" placeholder="Miejscowość">
+                <input type="text" id="city" placeholder="Miejscowość" name="city">
+              </p>
+              <p>
+                <label for="postal">Kod pocztowy</label>
+                <input type="postal" id="postal" placeholder="Kod pocztowy" name="postal" pattern="\d{2}-\d{3}" required>
               </p>
               <p>
                 <label for="phone">Numer telefonu</label>
-                <input type="tel" id="phone" placeholder="Numer tel">
+                <input type="tel" id="phone" placeholder="Numer tel" name="phone_number">
               </p>
               <p>
                 <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="E-mail">
+                <input type="email" id="email" placeholder="E-mail" name="email">
               </p>
             
           </fieldset>
@@ -268,9 +275,14 @@
                 <input type="radio" id="green" name="colour" value="green">
                 <label for="green">Zielony</label>
               </p>
-           
+            
             
           </fieldset>
+          <p>
+      
+            <input type="submit">
+          </p>
+
           </form>
      
       </section>

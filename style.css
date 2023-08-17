@@ -8,8 +8,10 @@ html {
 
 
 body {
-    background: #fefefe;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
 }
 
 .header {
@@ -51,12 +53,13 @@ main {
 
 .section {
     background: lightcyan;
-    margin: 10px;
+    padding: 1rem;
     line-height: 1.5;
 }
 
 .section__article {
     background: lightgray;
+    
 }
 
 
