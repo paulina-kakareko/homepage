@@ -1,3 +1,10 @@
+import podatek, { calculate, myFavouriteColor } from "./calculate"
+
+console.log(podatek)
+
+console.log(calculate(2))
+
+console.log(myFavouriteColor)
 
 console.log('hello')
 
