@@ -1,10 +1,10 @@
-function calculate(myNumber) {
-    return (myNumber + 4) * 2;
-}
+// function calculate(myNumber) {
+//     return (myNumber + 4) * 2;
+// }
 
-myFavouriteColor = 'green'
+// myFavouriteColor = 'green'
 
-const tax = "23%"
+// const tax = "23%"
 
-export {calculate, myFavouriteColor};
-export default tax;
+// export {calculate, myFavouriteColor};
+// export default tax;
