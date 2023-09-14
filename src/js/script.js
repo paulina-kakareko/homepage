@@ -29,7 +29,7 @@ console.log('hello')
     
 
     // function calculate
-s=
+
     function calculate(myNumber) {
         return myNumber*7
     }
