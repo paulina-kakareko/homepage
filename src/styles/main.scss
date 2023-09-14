@@ -1,0 +1,164 @@
+@import "components/section.scss";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import "../../node_modules/normalize.css/normalize.css";
+
+
+$textColor: blue;
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+@media screen and (min-width: 768px) {
+        background: grey;
+}
+}
+
+.header {
+  background: lightpink;
+  position: sticky;
+  top: 0;
+
+}
+
+.navigation {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.main-header {
+    margin: 10px;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    &::after {
+    content: "🧡";
+};
+
+    @media screen and (min-width: 768px) {
+            margin: 10px;
+            font-weight: 900;
+            font-family: 'Anton', sans-serif;
+    }
+}
+
+
+
+
+.photo__container {
+    text-align: center;
+}
+
+
+
+
+
+.article {
+    &__header {
+        color: red;
+    };
+    &__photo {
+        width: 200px;
+        height: auto;
+        border-radius: 20%;
+    }
+}
+
+.div {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    background: hotpink;
+    margin: 10px;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 15%;
+}
+
+.flex {
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-around;
+    &__item {
+        background: violet;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+    
+}
+
+.grid {
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+    &__item {
+        background: grey;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+  
+}
+
+.background {
+    background-image: url('../flowers1.jpg');
+    background-position: center center;
+}
+
+textarea {
+    width: 100%;
+    min-height: 10rem;
+}
+
+// pseudoelementy i pseudoklasy
+
+.paragraph { 
+    background: blue;
+    padding: 4px;
+    color: white;
+  }
+  
+  .paragraph::before {
+    content: "Hello ";
+    color: hotpink;
+    display: block;
+  }
+  
+  .paragraph::after {
+    content: "";
+    display: block;
+    color: green;
+    background: hotpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .paragraph:hover {
+    color: black;
+    background: green;
+  }
+  
