@@ -53,7 +53,7 @@ console.log('hello')
 
    
 
-    console.log(calculate(7))
+  
 
     // obiekt deathStar
 
