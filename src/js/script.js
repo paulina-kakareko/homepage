@@ -1,9 +1,3 @@
-
-
-console.log(podatek)
-
-
-
 console.log('hello')
 
  // function changing the header from Hello! to Goodbay!
