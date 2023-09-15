@@ -19,6 +19,27 @@ console.log('hello')
         
     }
 
+
+    // function changing the contenf of h2
+
+    // document.querySelector('#buttonToChangeH2').onclick = function() {
+    //     document.querySelector('h2').innerHTML = "Klik klik"
+    // }
+
+   //addEventListener function
+
+   function handleClick() {
+    document.querySelector('h2').innerHTML = "Klik klik"
+   }
+
+   const button = document.querySelector('#buttonToChangeH2')
+   button.addEventListener('click', handleClick)
+
+   console.log(button.classList)
+   button.classList.add('special3')
+   console.log(button.classList)
+
+
     // function changing header's colour
    
         document.querySelectorAll('.button').forEach(function(button) {
@@ -30,9 +51,7 @@ console.log('hello')
 
     // function calculate
 
-    function calculate(myNumber) {
-        return myNumber*7
-    }
+   
 
     console.log(calculate(7))
 
@@ -159,3 +178,9 @@ const newHardware = hardware.slice(0,2)
 console.log(newHardware)
 
 
+const hamburger = document.querySelector('.hamburger--js')
+console.log(hamburger)
+
+hamburger.addEventListener('click', () => {
+    const navigation = document.querySelector('.navigation--js').classList.toggle('navigation--open')
+} )

@@ -30,20 +30,52 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
 
 .header {
-  background: lightpink;
+  background: var(--backgroundColor);
   position: sticky;
   top: 0;
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
 }
 
 .navigation {
+    display: none;
     padding: 16px;
-    display: flex;
+    flex-direction: column;
+    background: var(--backgroundColor);
     justify-content: center;
+    align-items: center;
     gap: 16px;
-    background: var(--backgroundColor)
-
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    &__link {
+        color: white;
+    };
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        }
 }
+
+.navigation--open {
+    display: flex;
+}
+
+.hamburger {
+    padding: 4px;
+    background: none;
+    border: 0;
+    font-size: 2rem;
+    @media screen and (min-width: 768px) {
+      display: none;
+        }
+}
+
+
 
 main {
     max-width: 768px;
